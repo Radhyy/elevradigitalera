@@ -120,7 +120,7 @@ export default function Pricing() {
                 </ul>
                 <button
                   className={cn(
-                    "w-full py-4 rounded-xl font-semibold transition-all",
+                    "w-full py-4 rounded-xl font-semibold transition-all active:scale-95",
                     plan.isPopular
                       ? "bg-primary-500 text-white hover:bg-primary-600 shadow-md hover:shadow-primary-500/25"
                       : "bg-slate-100 text-slate-800 hover:bg-slate-200"

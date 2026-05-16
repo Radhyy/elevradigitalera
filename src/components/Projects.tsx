@@ -80,6 +80,7 @@ export default function Projects() {
                     x: index % 3 === 0 ? -20 : (index % 3 === 2 ? 20 : 0)
                   }}
                   whileInView={{ opacity: 1, y: 0, x: 0 }}
+                  whileTap={{ scale: 0.97 }}
                   viewport={{ once: true, margin: "-50px" }}
                   exit={{ opacity: 0, y: -20, scale: 0.95 }}
                   transition={{ 
@@ -87,7 +88,7 @@ export default function Projects() {
                     delay: (index % 3) * 0.1,
                     ease: [0.22, 1, 0.36, 1] 
                   }}
-                  className="relative group w-full pt-4 pb-6 px-4 cursor-pointer"
+                  className="relative group w-full pt-4 pb-6 px-4 cursor-pointer active:scale-95 transition-transform duration-200"
                 >
                   {/* The Liquid Glass Back Panel (Light Mode) */}
                   <div className="absolute z-0 
