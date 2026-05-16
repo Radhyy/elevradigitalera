@@ -58,11 +58,11 @@ export default function CTA() {
               <Link
                 href="https://wa.me/6285738804915"
                 target="_blank"
-                className="group inline-flex items-center gap-3 px-10 py-5 bg-white text-slate-900 font-bold text-lg rounded-2xl hover:bg-primary-500 hover:text-white transition-all duration-300 shadow-2xl hover:shadow-primary-500/30 hover:-translate-y-1 active:scale-95"
+                className="group w-full md:w-auto inline-flex items-center justify-center gap-3 px-6 md:px-10 py-4 md:py-5 bg-white text-slate-900 font-bold text-base md:text-lg rounded-2xl hover:bg-primary-500 hover:text-white transition-all duration-300 shadow-2xl hover:shadow-primary-500/30 hover:-translate-y-1 active:scale-95"
               >
-                <MessageCircle className="w-6 h-6 group-hover:animate-bounce" />
-                Mulai Konsultasi Gratis
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <MessageCircle className="w-5 h-5 md:w-6 md:h-6 group-hover:animate-bounce" />
+                <span>Mulai Konsultasi Gratis</span>
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               
               {/* Trust Badge */}
